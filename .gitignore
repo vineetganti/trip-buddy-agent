@@ -1,0 +1,15 @@
+# Secrets: copy .env.example to .env and put your own key there
+.env
+
+# Python and uv
+.venv/
+__pycache__/
+*.pyc
+
+# Long-term memory written by lessons 11-13 (recreated on first run)
+memory_store/
+memory_store_demo/
+
+# Local editor and Claude Code settings
+.vscode/
+.claude/settings.local.json
